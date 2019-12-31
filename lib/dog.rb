@@ -1,13 +1,9 @@
 class Dog 
   attr_accessor :name,:breed 
-  def initialize(breed)
-    @breed =breed("Mu
+  def initialize(name,breed="Mutt")
+    @breed =breed
     
   end
-    
-  def initialize(name)
-    @name = name
-  end
-end 
+end
 
 #binding.pry
